@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.cs.test_service.MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_main1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我是高手" />
+
+    <Button
+        android:id="@+id/btn_main1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动服务" />
+
+    <Button
+        android:id="@+id/btn_main2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭服务" />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_main3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind服务" />
+
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_main4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unBind服务" />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_main5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建通知1" />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_main6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建通知2" />
+</LinearLayout>
